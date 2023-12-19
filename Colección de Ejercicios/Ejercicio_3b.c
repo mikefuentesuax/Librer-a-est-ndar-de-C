@@ -6,7 +6,7 @@ int main() {
     FILE *archivo = fopen(nombre_archivo, "w");
 
     if (archivo != NULL) {
-        fprintf(archivo, "Hola mundo\n");
+        fprintf(archivo, "Hola, esto es un ejemplo de fprintf().\n");
 
         fclose(archivo);
 
@@ -28,5 +28,5 @@ int main() {
     }
 
     return 0;
-    
+
 }
