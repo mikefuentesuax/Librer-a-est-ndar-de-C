@@ -15,7 +15,9 @@ int main() {
         if (archivo != NULL) {
             char buffer[100];
             fscanf(archivo, "%99[^\n]", buffer);
+
             printf("El contenido del archivo es: %s\n", buffer);
+           
             fclose(archivo);
         } else {
             printf("No se pudo abrir el archivo\n");
@@ -23,7 +25,8 @@ int main() {
     } else {
         printf("No se pudo abrir el archivo\n");
 
-
-
     }
+
     return 0;
+    
+}
