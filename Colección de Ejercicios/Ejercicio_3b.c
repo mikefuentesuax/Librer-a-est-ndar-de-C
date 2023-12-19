@@ -18,7 +18,11 @@ int main() {
             printf("El contenido del archivo es: %s\n", buffer);
             fclose(archivo);
         } else {
-            
+            printf("No se pudo abrir el archivo\n");
+        }
+    } else {
+        printf("No se pudo abrir el archivo\n");
+
 
 
     }
